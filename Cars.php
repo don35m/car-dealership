@@ -4,11 +4,11 @@
     class Car
     {
 
-        public $make_model;
-        public $image;
-        public $price;
-        public $miles;
-        public $color;
+        private $make_model;
+        private $image;
+        private $price;
+        private $miles;
+        private $color;
 
 
 
@@ -20,7 +20,68 @@
             $this->miles = $miles;
             $this->color = $color;
         }
-      }
+        function setPrice($new_price)
+        {
+          $this->price = $new_price;
+        }
+
+        function getPrice()
+        {
+          return $this->price;
+        }
+
+
+
+        function setMakeModel($make_model)
+        {
+          $this->make_model = $make_model;
+        }
+
+        function getMakeModel()
+        {
+          return $this->make_model;
+        }
+
+
+
+        function setImage($image)
+        {
+          $this->image = $image;
+        }
+
+        function getImage()
+        {
+          return $this->image;
+        }
+
+
+        function setMiles($miles)
+        {
+          $this->miles = $miles;
+        }
+
+        function getMiles()
+        {
+          return $this->miles;
+        }
+
+
+
+        function setColor($color)
+        {
+          $this->color = $color;
+        }
+
+        function getColor()
+        {
+          return $this->color;
+        }
+
+
+
+}
+
+
 
 
     $porsche = new Car("2014 Porsche 911", "images/porsche.jpeg",  114991, 7864);
@@ -44,12 +105,17 @@
     <ul>
         <?php
             foreach ($cars as $car) {
-                echo "<li> $car->make_model </li>";
-                echo "<li><img src= $car->image ></li>";
+            $price = $car->getPrice();
+            $make_model = $car->getMakeModel();
+            $image = $car->getImage();
+            $miles = $car->getMiles();
+            $color = $car->getColor();
+                echo "<li> $make_model </li>";
+                echo "<li><img src= $image ></li>";
                 echo "<ul>";
-                    echo "<li> $$car->price </li>";
-                    echo "<li> Miles: $car->miles </li>";
-                    echo "<li> Color: $car->color </li>";
+                    echo "<li> $$price </li>";
+                    echo "<li> Miles: $miles </li>";
+                    echo "<li> Color: $color </li>";
                 echo "</ul>";
             }
         ?>
