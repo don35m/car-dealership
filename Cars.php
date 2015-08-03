@@ -1,6 +1,6 @@
 <?php
-
-
+$user_price = $_GET["price"];
+$user_miles = $_GET["miles"];
     class Car
     {
 
@@ -93,6 +93,16 @@
 
     $cars = array($porsche, $ford, $lexus, $mercedes);
 
+    $cars_matching_search = array();
+
+    foreach ($cars as $car) {
+      $price =$car->getPrice();
+      $miles =$car->getMiles();
+        if ($price < $user_price && $miles < $user_miles) {
+            array_push($cars_matching_search, $car);
+        }
+    }
+
 ?>
 
 <!DOCTYPE html>
@@ -104,7 +114,7 @@
     <h1>Your Car Dealership</h1>
     <ul>
         <?php
-            foreach ($cars as $car) {
+            foreach ($cars_matching_search as $car) {
             $price = $car->getPrice();
             $make_model = $car->getMakeModel();
             $image = $car->getImage();
@@ -118,6 +128,8 @@
                     echo "<li> Color: $color </li>";
                 echo "</ul>";
             }
+
+
         ?>
     </ul>
 </body>
