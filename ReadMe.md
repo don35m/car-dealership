@@ -1,8 +1,8 @@
-# _{Car Dealership}_
+# _Car Dealership_
 
-##### _{Brief description of application}, {Date of current version}_
+##### _Create a simple list of cars in a Car Dealership , 8/3/15_
 
-#### By _**{List of contributors}**_
+#### By _Don Schemmel & Tyler Deem_
 
 ## Description
 
