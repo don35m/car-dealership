@@ -2,31 +2,27 @@
 
 ##### _Create a simple list of cars in a Car Dealership , 8/3/15_
 
-#### By _Don Schemmel & Tyler Deem_
+#### By _Don Schemmel_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}_
+_Website to display each car on the lot with its exact make and model, its price, and the number of miles on it. Photo included.  _
 
 ## Setup
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Are there other applications this app depends on?}_
+* _Use the provided form to search for your next car!_
+* _Clone the repository._
+* _View with localhost:8000_
 
 ## Technologies Used
 
-_{Tell me about the languages you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* _HTML_
+* _CSS_
+* _PHP_
 
 ### Legal
 
-*{This is boilerplate legal language. Read through it, and if you like it, use it. There are other license agreements online, but you can generally copy and paste this.}*
-
-Copyright (c) 2015 **_{List of contribtors}_**
+Copyright (c) 2015 **_Don Schemmel_**
 
 This software is licensed under the MIT license.
 
