@@ -6,7 +6,7 @@
 
 ## Description
 
-_Website to display each car on the lot with its exact make and model, its price, and the number of miles on it. Photo included.  _
+_Website to display each car on the lot with its exact make and model, its price, and the number of miles on it. Photo included._
 
 ## Setup
 
