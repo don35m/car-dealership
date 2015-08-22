@@ -2,7 +2,7 @@
 
 ##### _Create a simple list of cars in a Car Dealership , 8/3/15_
 
-#### By _Don Schemmel_
+#### By _Don Schemmel & Tyler Deem_
 
 ## Description
 
@@ -22,7 +22,7 @@ _Website to display each car on the lot with its exact make and model, its price
 
 ### Legal
 
-Copyright (c) 2015 **_Don Schemmel_**
+Copyright (c) 2015 **_Don Schemmel & Tyler Deem _**
 
 This software is licensed under the MIT license.
 
